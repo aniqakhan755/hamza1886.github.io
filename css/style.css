@@ -25,3 +25,14 @@ h5 {
 h6 {
     font-size: 0.75rem;
 }
+
+@media screen {
+    .experience {
+        padding: 1em;
+    }
+
+    .experience:hover {
+        background-color: #f7fcfe;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+}
